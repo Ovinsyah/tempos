@@ -1,0 +1,50 @@
+.br {
+    margin-top:20px;
+}
+.br2 {
+    margin-top:40px;
+}
+
+.bg-bluegray{
+    background-color: rgb(152, 182, 194);
+}
+.bg-gray{
+    background-color : #333;
+}
+.white {
+    color: #fff!important;
+}
+.card {
+    border: none !important;
+    background-color: #526a76;
+        object-fit: none;
+}
+.card img {
+    width: 100% !important;
+    height: 20rem !important;
+    
+}
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.padding {
+    padding: 2rem;
+}
+.berita {
+    padding: 1rem !important;
+}
+.berita img {
+    width: 100%;
+    
+}
+.banner img {
+    object-fit: none;
+    width: 100% !important;
+    height: 40rem !important;
+}
+.banner {
+}
+.navigation {
+	height: 3rem !important;
+}
