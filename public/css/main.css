@@ -28,8 +28,8 @@
     font-size: 2rem;
     font-weight: bold;
 }
-.padding {
-    padding: 2rem;
+.paddingleft {
+    padding: 0 0 0 3rem;
 }
 .berita {
     padding: 1rem !important;
@@ -43,8 +43,6 @@
     width: 100% !important;
     height: 40rem !important;
 }
-.banner {
-}
-.navigation {
-	height: 3rem !important;
+.fasilitas {
+    width: 100px;
 }

@@ -12,7 +12,15 @@
 */
 
 Route::get('/', 'HomeController@bukahome');//
-//Route::get('/', function () {
-//    return view('home');
-//});
-Route::get('sd', 'SdController@index');
+
+Route::get('page/sd', 'SdController@index');
+Route::get('page/smp', 'SmpController@index');
+Route::get('page/sma', 'SmaController@index');
+Route::get('page/bandingkan', 'BandingkanController@index');
+Route::get('page/sma', 'SmaController@index');
+Route::get('page/bandingkan2', 'Bandingkan2Controller@index');
+Route::get('page/rekomendasi', 'RekomendasiController@index');
+Route::get('page/berita1', 'Berita1Controller@index');
+Route::get('page/event1', 'Event1Controller@index');
+Route::get('page/pencarian', 'PencarianController@index');
+Route::get('page/signup', 'SignupController@index');
