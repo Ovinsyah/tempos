@@ -14,7 +14,7 @@
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav white">
                     <li class="dropdown">
-                        <a href="daftarsekolah.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Sekolah <span class="caret"></span></a>
+                        <a href="{{ url('page/daftarsekolah') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Sekolah <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="{{ url('page/sd') }}">SD</a></li>
                             <li><a href="{{ url('page/smp') }}">SMP</a></li>
@@ -57,12 +57,11 @@
                                 <input type="checkbox" value="remember-me"> Remember me
                             </label>
                         </div>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        <a href="{{ url('page/dashboard') }}" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</a>
                         <a href="{{ url('page/signup') }}">Sign Up</a>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
