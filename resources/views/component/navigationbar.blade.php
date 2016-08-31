@@ -9,26 +9,26 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-brand"><a href="index.html">Wempos</a></div>
+                <div class="navbar-brand"><a href="{{ url('/') }}">Wempos</a></div>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav white">
                     <li class="dropdown">
-                        <a href="daftarsekolah.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Sekolah <span class="caret"></span></a>
+                        <a href="{{ url('page/daftarsekolah') }}" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Sekolah <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            {{-- BARUUUUU --}}
                             <li><a href="{{ url('page/sd') }}">SD</a></li>
                             <li><a href="{{ url('page/smp') }}">SMP</a></li>
                             <li><a href="{{ url('page/sma') }}">SMA</a></li>
+                            <li><a href="{{ url('page/sma') }}">SMA</a></li>
                         </ul>
                     </li>
-                    <li><a href="bandingkan.html">Bandingkan</a></li>
-                    <li><a href="rekomendasi.html">Rekomendasi</a></li>
+                    <li><a href="{{ url('page/bandingkan') }}">Bandingkan</a></li>
+                    <li><a href="{{ url('page/rekomendasi') }}">Rekomendasi</a></li>
 
                 </ul>
                 <ul class="navbar-form navbar-right">
                     <input type="text" class="form-control" placeholder="Search">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Login</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Login</button>
                 </ul>
 
             </div>
@@ -58,11 +58,11 @@
                                 <input type="checkbox" value="remember-me"> Remember me
                             </label>
                         </div>
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                        <a href="{{ url('page/dashboard') }}" class="btn btn-lg btn-primary btn-block" type="submit">Sign in</a>
+                        <a href="{{ url('page/signup') }}">Sign Up</a>
                     </form>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
