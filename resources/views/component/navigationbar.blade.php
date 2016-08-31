@@ -16,9 +16,10 @@
                     <li class="dropdown">
                         <a href="daftarsekolah.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Daftar Sekolah <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="{{ url('page.sd') }}">SD</a></li>
-                            <li><a href="smp.html">SMP</a></li>
-                            <li><a href="sma.html">SMA</a></li>
+                            {{-- BARUUUUU --}}
+                            <li><a href="{{ url('page/sd') }}">SD</a></li>
+                            <li><a href="{{ url('page/smp') }}">SMP</a></li>
+                            <li><a href="{{ url('page/sma') }}">SMA</a></li>
                         </ul>
                     </li>
                     <li><a href="bandingkan.html">Bandingkan</a></li>
