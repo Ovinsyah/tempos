@@ -28,3 +28,17 @@ Route::get('page/editnews', 'EditnewsController@index');
 Route::get('page/editprestasi', 'EditprestasiController@index');
 Route::get('page/editprofile', 'EditprofileController@index');
 Route::get('page/admin', 'AdminController@index');
+
+/* Route ::post cuma bisa diakses pake form yang ada method post
+ * Jadi kalau ada yang mau akses https://localhost/contoh-post
+ * secara langsung melalui url, ga bisa
+*/
+Route::post('contoh-post', 'ContohController@posting');
+
+/* Coba tes apa beda antara
+ * Route::post('contoh-post', 'ContohController@posting');
+ * dengan
+ * Route::get('contoh-post', 'ContohController@posting');
+*/
+
+Route::get('contoh-form', 'ContohController@form');
